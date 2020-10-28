@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "asset-register"
+    }
+  },
+  "defaultProject": "asset-register",
+  "cli": {
+    "analytics": false
+  }
 }
