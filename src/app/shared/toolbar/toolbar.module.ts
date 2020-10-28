@@ -6,6 +6,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { RouterModule } from '@angular/router';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { SearchBarModule } from '../search-bar/search-bar.module';
 
 @NgModule({
   declarations: [ToolbarComponent],
@@ -14,7 +15,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     MatToolbarModule,
     MatButtonModule,
     RouterModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    SearchBarModule
   ],
   exports: [ToolbarComponent]
 })

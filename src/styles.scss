@@ -248,3 +248,7 @@ $altTheme: mat-dark-theme($theme-primary, $theme-accent, $theme-warn);
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-h2, .mat-title, .mat-typography h2 {
+  margin: 0 !important;
+}

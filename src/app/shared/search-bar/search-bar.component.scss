@@ -1,0 +1,13 @@
+.search-bar {
+  width: 250px;
+  color: #ffffff;
+}
+
+.mat-form-field-infix {
+  border-top: none !important;
+}
+
+.mat-input-element::placeholder {
+  color:#ffffff;
+  font-size: 14px;
+}
