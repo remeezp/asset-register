@@ -252,3 +252,24 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .mat-h2, .mat-title, .mat-typography h2 {
   margin: 0 !important;
 }
+
+.ar-pad-20 {
+  padding: 20px;
+}
+
+.area-title-bar {
+  padding: 30px;
+  background-color: #006341;
+  height: 80px;
+  color: rgb(255, 255, 255);
+}
+
+.mat-h2, .mat-title, .mat-typography h2 {
+  margin: 0 !important;
+}
+
+mat-toolbar {
+  @include mat-elevation(8);
+  position: relative;
+  z-index: 4;
+}

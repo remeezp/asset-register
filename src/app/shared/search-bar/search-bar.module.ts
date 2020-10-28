@@ -7,6 +7,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatButtonModule } from '@angular/material/button';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [SearchBarComponent],
@@ -16,7 +17,8 @@ import { MatButtonModule } from '@angular/material/button';
     MatFormFieldModule,
     MatIconModule,
     FlexLayoutModule,
-    MatButtonModule
+    MatButtonModule,
+    RouterModule
   ],
   exports: [SearchBarComponent]
 })
