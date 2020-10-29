@@ -10,6 +10,13 @@ const routes: Routes = [
         (m) => m.SearchResultModule
       ),
   },
+  {
+    path: 'asset-staff-detail',
+    loadChildren: () =>
+      import('./asset-staff-detail/asset-staff-detail.module').then(
+        (m) => m.AssetStaffDetailModule
+      ),
+  },
 ];
 
 @NgModule({
